@@ -1,0 +1,57 @@
+body {
+  background-color: #333;
+  margin-left: 20rem;
+  margin-top: 10rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15rem;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.form h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.submit-btn {
+  width: 10rem;
+  margin: 0 auto;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 10rem;
+}
+
+tr:nth-child(even) {
+  background-color: #08093b;
+}
